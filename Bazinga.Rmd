@@ -1,0 +1,14 @@
+---
+title: "Bazinga"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data(mtcars)
+glimpse(mtcars)
+my_lm <- lm(speed~dist, data=mtcars) #Yo Bro I made some model for you
+```
