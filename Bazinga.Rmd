@@ -12,3 +12,7 @@ data(mtcars)
 glimpse(mtcars)
 my_lm <- lm(speed~dist, data=mtcars) #Yo Bro I made some model for you
 ```
+
+```{r}
+summary(my_lm) #You forgot to look at the model
+```
